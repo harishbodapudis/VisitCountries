@@ -1,0 +1,111 @@
+.countries-visited-page {
+  min-height: 100vh;
+  background-color: #161624;
+  padding: 10px 20px;
+}
+
+.countries-heading {
+  color: #f1f5f9;
+  font-size: 24px;
+  width: 98%;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.items-box {
+  list-style-type: none;
+  color: #f1f5f9;
+  width: 95%;
+  margin: auto;
+  border: 1px solid #334155;
+  border-radius: 5px;
+  padding: 0px;
+  height: 49vh;
+  overflow: auto;
+}
+
+.item-box {
+  background-color: #1f1f2f;
+  border-bottom: 1px solid #334155;
+}
+
+.para-btn-box {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visited-para {
+  color: #cbd5e1;
+}
+
+.visit-btn {
+  background-color: #3b82f6;
+  border: 0px;
+  border-radius: 5px;
+  color: #f1f5f9;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.country-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #1f1f2f;
+  color: #f1f5f9;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.country-img {
+  height: 150px;
+  width: 250px;
+}
+
+.para-remove-btn-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+.visited-countries-box {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.remove-btn {
+  border: 0px;
+  background-color: transparent;
+  border: 1px solid #f1f5f9;
+  border-radius: 5px;
+  color: #f1f5f9;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.visited-countries-heading {
+  color: #f1f5f9;
+  width: 95%;
+  margin: 20px auto;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.no-countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 100%;
+}
+
+.no-countries-para {
+  color: #f1f5f9;
+  font-size: 20px;
+}
